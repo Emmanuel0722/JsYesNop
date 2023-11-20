@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/blyde-river-1524637082.jpg");
+}
+
+header{
+	background-color: rgb(29, 77, 117);
+	height: 70px;
+	display: flex;
+	align-items: center;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-left: 10px;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.containerItems{
+	text-align: center;
+	width: 500px;
+	height: 400px;
+	background-color: rgba(176, 176, 176, 0.3);
+	margin-top: 50px;
+	border-radius: 10px;
+	padding-top: 100px;
+}
+
+.containerYes{
+	display: none;
+	justify-content: center;
+  position: absolute;
+	width: 100vh;
+	height: 100vh; 
+	background-color: rgba(0, 0, 0, 0.6);
+	position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.respYes{
+	margin-top: 150px;
+	width: 250px;
+	height: 150px;
+	background-color: white;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.btnClose{
+	background-color: red;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	position: relative;
+	left: 46%;
+	top: -5%;
+}
+
+.btnClose:hover{
+	background-color: rgb(255, 58, 58);
+}
+
+h1{
+	font-size: 40px;
+	margin-bottom: 20px;
+	color: steelblue;
+}
+
+h3{
+	margin-top: 30px;
+}
+
+button{
+	background-color: steelblue;
+	width: 100px;
+	height: 30px;
+	border-radius: 10px;
+	border: none;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+button:hover{
+	background-color: rgb(72, 136, 189);
+}
+
+.message{
+	margin-top: 20px;
+	font-size: 20px;
+	color: white;
+}
